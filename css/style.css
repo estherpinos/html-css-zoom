@@ -31,12 +31,7 @@
   align-items: center;
 }
 
-.debug{
-  background-color: green;
-  border-style: dashed;
-  border-color: rebeccapurple;
-  min-height: 100px;
-}
+
 
 
 
@@ -73,7 +68,7 @@ main{
  .row .col{
   width:calc(100% / 7);
   min-width: 136.28px;
-  padding: 5px;
+  padding: 1px 3px;
 }
 
 /* FOOTER */
@@ -130,7 +125,39 @@ main{
   height: 100%;
   padding: 30px 10px;
   
+}
+
+.container img{
+  max-width: 100%;
+  max-height: 100%;
+
+}
+
+.col {
+  position: relative;
+
+}
+
+.mute{
+  position: absolute;
+  bottom: 5px;
+  left: 2px;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.63);
+  padding: 2px;
+}
+
+.mute i{
+  padding: 2px;
   
+}
+
+.mute p{
+  font-size: small;
+}
+
+.d-inline{
+  display: inline-block;
 }
 
 
