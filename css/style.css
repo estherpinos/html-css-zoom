@@ -4,6 +4,39 @@
   box-sizing: border-box;
 }
 
+.container{
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.flex{
+  display: flex;
+  
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.justify-content{
+  justify-content: center;
+}
+
+.align-items{
+  align-items: center;
+}
+
+.debug{
+  background-color: green;
+  border-style: dashed;
+  border-color: rebeccapurple;
+  min-height: 100px;
+}
+
+
+
+/* HEADER */
 
 header{
   background-color: aqua;
@@ -14,12 +47,30 @@ header{
 main{
   background-color: black;
   width: 100%;
-  height: calc(100vh - 130px)
+  height: calc(100vh - 130px);
 }
 
 footer{
   background-color: orange;
   width: 100%;
   height: 70px;
+}
+
+/* MAIN */
+
+main{
+  overflow: auto;
+}
+
+.row{
+  max-height: 100%;
+
+}
+ .row .col{
+  width:calc(100% / 7);
+  min-width: 136.28px;
+  padding: 5px;
+  
+
 }
 
