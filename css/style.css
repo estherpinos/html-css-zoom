@@ -84,3 +84,53 @@ main{
   padding: 0 5px;
 }
 
+.menu-footer li{
+  text-align: center;
+  vertical-align: middle;
+}
+
+.menu-footer ul{
+  display: inline-block;
+  margin-right: 10px;
+}
+
+
+.icon-footer{
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.icon-text{
+  display: block;
+  color: white;
+}
+
+.icon{
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+.arrow{
+  vertical-align: middle;
+  color: white;
+  font-size: 8px;
+}
+
+.menu-footer p{
+  font-size: 12px;
+}
+
+.menu-footer li{
+  display: inline-block;
+}
+
+.end-meeting{
+  background-color: #4A4A4A;
+  color: red;
+  height: 100%;
+  padding: 30px 10px;
+  
+  
+}
+
+
